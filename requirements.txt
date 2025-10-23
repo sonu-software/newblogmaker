@@ -1,23 +1,26 @@
+# Core AI & ML
 torch
 faiss-cpu
 
-#googlesearch-python
-google-search-results
-feedparser
+# LangChain and GenAI
 langchain
 langchain-community
-sentence-transformers
-python-dotenv
-google-generativeai
 langchain-google-genai
+google-generativeai
+sentence-transformers
 
-pydantic
-selenium
-python-docx
+# Utilities
+python-dotenv
 requests
-beautifulsoup4
 urllib3
 pillow
+python-docx
+beautifulsoup4
+feedparser
+selenium
 
-streamlit
+# Search
+google-search-results
 
+# Streamlit (pinned to stable version)
+streamlit==1.32.0
