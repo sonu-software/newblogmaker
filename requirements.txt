@@ -1,26 +1,28 @@
 # Core AI & ML
-torch
-faiss-cpu
+torch>=2.2.0
+faiss-cpu>=1.8.0
 
 # LangChain and GenAI
-langchain
-langchain-community
-langchain-google-genai
-google-generativeai
-sentence-transformers
+langchain>=0.2.14
+langchain-core>=0.2.11
+langchain-community>=0.2.11
+langchain-text-splitters>=0.2.2
+langchain-google-genai>=1.0.5
+google-generativeai>=0.5.3
+sentence-transformers>=2.7.0
 
 # Utilities
-python-dotenv
-requests
-urllib3
-pillow
-python-docx
-beautifulsoup4
-feedparser
-selenium
+python-dotenv>=1.0.1
+requests>=2.31.0
+urllib3>=2.2.2
+pillow>=10.3.0
+python-docx>=1.0.1
+beautifulsoup4>=4.12.3
+feedparser>=6.0.11
+selenium>=4.22.0
 
 # Search
-google-search-results
+google-search-results>=2.4.2
 
-# Streamlit (pinned to stable version)
-streamlit==1.32.0
+# Streamlit (use stable modern version)
+streamlit>=1.39.0
