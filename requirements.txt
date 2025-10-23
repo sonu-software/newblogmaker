@@ -1,5 +1,6 @@
 torch
 faiss-cpu
+imghdr-py
 
 #googlesearch-python
 google-search-results
@@ -18,4 +19,5 @@ requests
 beautifulsoup4
 urllib3
 pillow
+
 streamlit
