@@ -17,7 +17,9 @@ import feedparser
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from sentence_transformers import SentenceTransformer
-from langchain.retrievers import ContextualCompressionRetriever
+#from langchain.retrievers import ContextualCompressionRetriever
+from langchain_community.retrievers import ContextualCompressionRetriever
+
 from langchain.retrievers.document_compressors import CrossEncoderReranker
 from langchain_community.embeddings.huggingface import HuggingFaceBgeEmbeddings
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
@@ -498,6 +500,7 @@ st.subheader(f"🛡️ Recent Cyber Attacks and Breaches 🛡️")
 for i, title in enumerate(titles,1):
     st.write(f"{i}.🔴- {title}")
             
+
 
 
 
